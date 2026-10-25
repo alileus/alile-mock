@@ -6,7 +6,7 @@
   "homepage": "https://mock.alile.us",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alileus/mock-tools.git"
+    "url": "https://github.com/alileus/alile-mock.git"
   },
   "type": "module",
   "version": "0.0.1",

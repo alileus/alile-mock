@@ -2,7 +2,7 @@
 
 Small, open source tools for the test data you need while building.
 
-**[Use the tools](https://mock.alile.us)** · [Suggest a tool](https://github.com/alileus/mock-tools/issues/new/choose) · [Contribute](CONTRIBUTING.md)
+**[Use the tools](https://mock.alile.us)** · [Suggest a tool](https://github.com/alileus/alile-mock/issues/new/choose) · [Contribute](CONTRIBUTING.md)
 
 This started with Saudi fixtures. It's now a home for useful generators from any country, plus the everyday data you need for forms, imports, and API tests. No account or API key needed.
 
@@ -25,8 +25,8 @@ Country tools use lowercase two-letter ISO 3166-1 alpha-2 codes in their routes,
 Use Node.js 24 LTS (`.nvmrc` is included), or Node.js 22.12+.
 
 ```sh
-git clone https://github.com/alileus/mock-tools.git
-cd mock-tools
+git clone https://github.com/alileus/alile-mock.git
+cd alile-mock
 npm ci
 npm run dev
 ```
@@ -40,9 +40,9 @@ npm run preview    # Preview dist/ after building
 
 ## Add something useful
 
-New generators, regional formats, better exports, bug fixes, and clearer docs are welcome. Small PRs are easier to review. For a larger tool, [open an idea](https://github.com/alileus/mock-tools/issues/new/choose) first so we can agree on the scope.
+New generators, regional formats, better exports, bug fixes, and clearer docs are welcome. Small PRs are easier to review. For a larger tool, [open an idea](https://github.com/alileus/alile-mock/issues/new/choose) first so we can agree on the scope.
 
-The [contribution guide](CONTRIBUTING.md) covers where code goes, how to test it, and how to open a PR. Browse [good first issues](https://github.com/alileus/mock-tools/labels/good%20first%20issue) or ask in [Discussions](https://github.com/alileus/mock-tools/discussions).
+The [contribution guide](CONTRIBUTING.md) covers where code goes, how to test it, and how to open a PR. Browse [good first issues](https://github.com/alileus/alile-mock/labels/good%20first%20issue) or ask in [Discussions](https://github.com/alileus/alile-mock/discussions).
 
 ## How it's built
 

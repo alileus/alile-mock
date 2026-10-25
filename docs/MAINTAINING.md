@@ -1,4 +1,11 @@
-# Maintaining mock-tools
+# Maintaining alile-mock
+
+The Vercel project also serves `mta-sts.alile.us`. Its mail transport policy is
+`public/.well-known/mta-sts.txt`, initially in testing mode. DNS for `alile.us`
+publishes TLS reports to `tech@alile.us`. Review approximately two weeks of
+reports before changing the policy to `enforce`, and update the `_mta-sts`
+TXT record ID whenever the policy changes. Keep this endpoint public and
+available while any previously published policy can still be cached.
 
 ## Review and release
 
