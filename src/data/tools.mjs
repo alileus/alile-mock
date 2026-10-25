@@ -3,7 +3,7 @@
 
 export const SITE = "https://mock.alile.us";
 export const SITE_NAME = "mock.alile.us";
-export const REPOSITORY = "https://github.com/alileus/mock-tools";
+export const REPOSITORY = "https://github.com/alileus/alile-mock";
 
 export const TOOLS = [
   { key: "uuid", href: "/uuid", name: "Bulk UUIDs", navLabel: "UUIDs", category: "General", blurb: "Generate UUID v4 values in bulk. Copy or download as text or JSON." },

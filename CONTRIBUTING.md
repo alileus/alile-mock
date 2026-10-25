@@ -4,7 +4,7 @@ Thanks for helping make these tools more useful. You can fix a bug, add a format
 
 ## Start here
 
-1. Check existing [issues](https://github.com/alileus/mock-tools/issues) and PRs for similar work.
+1. Check existing [issues](https://github.com/alileus/alile-mock/issues) and PRs for similar work.
 2. Click **Fork** on GitHub, clone your fork, and create a branch.
 3. Run `npm ci` and `npm run dev` with Node.js 24 LTS or 22.12+.
 4. Make your change and run `npm run verify`.
@@ -15,15 +15,15 @@ You do not need permission for a small fix. For a larger feature, open a tool re
 Replace `YOUR_USERNAME` below with your GitHub username:
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/mock-tools.git
-cd mock-tools
-git remote add upstream https://github.com/alileus/mock-tools.git
+git clone https://github.com/YOUR_USERNAME/alile-mock.git
+cd alile-mock
+git remote add upstream https://github.com/alileus/alile-mock.git
 git switch -c add-my-tool
 npm ci
 npm run dev
 ```
 
-Open `http://localhost:4321`. No account, API key, environment file, or access to Vercel is needed. Not sure where to start? Browse the [good first issues](https://github.com/alileus/mock-tools/labels/good%20first%20issue). Documentation and small accessibility fixes are welcome too.
+Open `http://localhost:4321`. No account, API key, environment file, or access to Vercel is needed. Not sure where to start? Browse the [good first issues](https://github.com/alileus/alile-mock/labels/good%20first%20issue). Documentation and small accessibility fixes are welcome too.
 
 When your change is ready:
 
@@ -34,7 +34,7 @@ git commit -m "Describe the change"
 git push -u origin add-my-tool
 ```
 
-Use the link GitHub shows after the push to open your PR. Choose `alileus/mock-tools` and `main` as the destination. A draft PR is fine if you want feedback while you work. Keep unrelated changes in separate PRs.
+Use the link GitHub shows after the push to open your PR. Choose `alileus/alile-mock` and `main` as the destination. A draft PR is fine if you want feedback while you work. Keep unrelated changes in separate PRs.
 
 ## Adding a tool
 
@@ -74,4 +74,4 @@ If a check fails, open the PR's **Checks** tab for the error. Use `npm ci` after
 
 Ali reviews contributions. PRs need passing checks and resolved review conversations. No outside approval is required for the maintainer's own PRs. Changes are squash-merged and their branches are deleted afterward. Passing checks alone do not enable auto-merge; a maintainer must choose that for an individual PR. Only changes merged into `main` reach the live site.
 
-For questions, use [Discussions](https://github.com/alileus/mock-tools/discussions). For security reports, follow [SECURITY.md](SECURITY.md).
+For questions, use [Discussions](https://github.com/alileus/alile-mock/discussions). For security reports, follow [SECURITY.md](SECURITY.md).
